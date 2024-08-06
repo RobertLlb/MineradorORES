@@ -80,7 +80,7 @@ impl Miner {
     ) -> Solution {
         // Dispatch job to each thread
         let progress_bar = Arc::new(spinner::new_progress_bar());
-        progress_bar.set_message("Mining...");
+        
         let handles: Vec<_> = (0..threads)
             .map(|i| {
                 std::thread::spawn({
@@ -94,6 +94,7 @@ impl Miner {
                         let mut best_difficulty = 0;
                         let mut best_hash = Hash::default();
                         loop {
+                            progress_bar.set_message(format!("Mining... (Best Difficulty Found: {} )  (Minimun Difficulty : {} )", best_difficulty, min_difficulty));
                             // Create hash
                             if let Ok(hx) = drillx::hash_with_memory(
                                 &mut memory,
@@ -107,12 +108,7 @@ impl Miner {
                                     best_hash = hx;
                                 }
                                 // Print difficulty for every nonce
-                                if nonce % 100 == 0 {
-                                    progress_bar.set_message(format!(
-                                        "Mining... (difficulty: {})",
-                                        difficulty
-                                    ));
-                                }
+                                
 
                             }
                             // Exit if time has elapsed
