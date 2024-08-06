@@ -1,126 +1,166 @@
 
-## Disclaimer 👷‍♂️
+# ORE CLI
 
-This code is experimental and provided "as is", without warranty of any kind. Use it at your own risk. It's under development, and its features may change. Always back up your data before use. Contributions and feedback are welcome.
+A command line interface for ORE cryptocurrency mining.
 
-The script automates the setup and running of the Ore CLI for $ORE mining operations on Solana Mainnet, ensuring you're always running the latest version and simplifying the mining setup process.
+## Prerequisites
 
-ORE program address `oreV2ZymfyeXgNgBdqMkumTqqAprVqgBWQfoYkrtKWQ`
+- [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-$ORE (V2) token address `oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp`
+## Installation
 
-$ORE (V1) token address `oreoN2tQbHXVaZsr3pf66A48miqcBXCDJozganhEJgz` - mining paused, migrate to v2 if you have
+### Clone the Repository
 
-## Quick Start 🛠️
+To get started, clone the repository to your local machine:
 
-To get started with the Ore Miner Auto Script, clone this repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/nodecattel/oreminer.git
-cd oreminer
+```sh
+git clone https://github.com/RobertLlb/MineradorORES.git
+cd MineradorORES
 ```
 
-### Prerequisites ✅
+### Build the Project
 
-Before running the script, ensure you have the following installed:
+Build the project using Cargo:
 
-- Rust and Cargo (The script will attempt to install these if they're not present)
-- Solana CLI (Also installed by the script if not present)
-- (Recommended) Private RPC endpoints for fast & secure mining hash submission. You can use our referal link for [Quicknode here](https://www.quicknode.com/?via=nodecattel)
-
-### Give permission for script become executable
-
-```bash
-chmod +x install.sh ore.sh
+```sh
+cargo build --release
 ```
 
-### Installation 💻
+### Configuration
 
-Navigate to the cloned repository directory and run the `install.sh` script to set up the necessary components:
+Ensure you have your Solana keypair JSON file ready. The default path used in the commands is `~/.config/solana/id.json`. You can adjust this path if your keypair file is located elsewhere.
 
-```bash
-./install.sh
+## Running the Miner
+
+To start mining, use the following command:
+
+```sh
+./target/release/ore mine --rpc-urls "https://your-rpc-url-1" "https://your-rpc-url-2" --keypair "~/.config/solana/id.json" --priority-fee 1000 --threads 4 --buffer-time 5
 ```
 
-Follow the on-screen instructions to complete the installation. The script will:
+### Command Line Options
 
-- Install Rust and Cargo
-- Install the Solana CLI
-- Install and update the Ore CLI to the latest version
-- Set executable permissions for `ore.sh`
-- Optionally run `ore.sh` for further setup
+You can use the `-h` flag on any command to pull up a help menu with documentation:
 
-### Generating Keypair 🔑
-
-To generate a new keypair for Solana, use the following command:
-
-```bash
-solana-keygen new --outfile ~/.config/solana/id.json
+```sh
+./target/release/ore -h
 ```
 
-### Running Ore Miner ⛏️
+## VPS Setup
 
-(Devnet) Get SOL testnet by running this command:
+### Step 1: Access the VPS
 
-```bash
-solana config set --url d
-solana airdrop 1
-```
-Try again if there is an error with rate limit.
+Use SSH to access your VPS:
 
-After installation, fund your wallet and you can start the mining process by running:
-
-```bash
-./ore.sh mine
+```sh
+ssh user@your_vps_ip
 ```
 
-See all available commands:
+### Step 2: Install Dependencies on the VPS
 
-```bash
-./ore.sh
+Update the packages:
+
+```sh
+sudo apt update
+sudo apt upgrade -y
 ```
 
-### Change default variable config manually
+Install Git and other necessary dependencies:
 
-To change your settings, please set up in `ore.conf` located at `$HOME/.ore`
-
-```bash
-cd $HOME/.ore
-nano ore.conf
+```sh
+sudo apt install git build-essential -y
 ```
 
-### Export Private key to external wallet
+Install Rust:
 
-```bash
-cat $HOME/.config/solana/id.json
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
 ```
 
-Then copy the output to your external wallet like Phantom, Backpack.
+### Step 3: Clone the Repository and Build the Project
 
-### Useful Links
+Clone your repository:
 
-Ore Cli's creates:
-
-```
-https://crates.io/crates/ore-cli
-```
-
-Official Ore-Cli repository:
-
-```
-https://github.com/regolith-labs/ore-cli
+```sh
+git clone https://github.com/RobertLlb/MineradorORES.git
+cd MineradorORES
 ```
 
-Dune $ORE PoW Mining on Solana Mainnet:
+Build the project:
 
-```
-https://dune.com/rawrmaan/ore-mining-solana
-```
-
-`$ORE` Price chart:
-
-```
-https://birdeye.so/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp?chain=solana
+```sh
+cargo build --release
 ```
 
-If you find value in the scripts here, please [Follow NodeCattel on X](https://twitter.com/nodecattel)
+### Step 4: Run the Miner on the VPS
+
+Run the miner with the desired configuration:
+
+```sh
+./target/release/ore mine --rpc-urls "https://your-rpc-url-1" "https://your-rpc-url-2" --keypair "~/.config/solana/id.json" --priority-fee 1000 --threads 4 --buffer-time 5
+```
+
+### Optional: Automate the Execution with `systemd`
+
+#### Create a Service File
+
+Create a new service file:
+
+```sh
+sudo nano /etc/systemd/system/ore_miner.service
+```
+
+Add the following content (adjust as necessary):
+
+```ini
+[Unit]
+Description=ORE Miner
+
+[Service]
+ExecStart=/path/to/ore mine --rpc-urls "https://your-rpc-url-1" "https://your-rpc-url-2" --keypair "~/.config/solana/id.json" --priority-fee 1000 --threads 4 --buffer-time 5
+Restart=always
+User=your_user
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### Enable and Start the Service
+
+Reload `systemd` to recognize the new service:
+
+```sh
+sudo systemctl daemon-reload
+```
+
+Enable the service to start automatically on boot:
+
+```sh
+sudo systemctl enable ore_miner
+```
+
+Start the service:
+
+```sh
+sudo systemctl start ore_miner
+```
+
+#### Check the Status of the Service
+
+Verify the status of the service to ensure it is running:
+
+```sh
+sudo systemctl status ore_miner
+```
+
+## Troubleshooting
+
+If you encounter any issues, please refer to the following steps:
+
+1. Ensure all dependencies are installed correctly.
+2. Verify your Solana keypair file is correctly configured.
+3. Check the service logs using `sudo journalctl -u ore_miner` if using `systemd`.
+
+For additional support, please open an issue on the [GitHub repository](https://github.com/RobertLlb/MineradorORES/issues).

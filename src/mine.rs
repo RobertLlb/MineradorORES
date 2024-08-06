@@ -1,4 +1,4 @@
-use std::{sync::Arc, time::Instant};
+use std::sync::Arc;
 
 use colored::*;
 use drillx::{
@@ -41,13 +41,10 @@ impl Miner {
                 calculate_multiplier(proof.balance, config.top_balance)
             );
 
-            // Calc cutoff time
-            let cutoff_time = self.get_cutoff(proof, args.buffer_time).await;
 
             // Run drillx
             let solution = Self::find_hash_par(
                 proof,
-                cutoff_time,
                 args.threads,
                 20,  // Set the minimum difficulty to 20
             )
@@ -74,7 +71,6 @@ impl Miner {
 
     async fn find_hash_par(
         proof: Proof,
-        cutoff_time: u64,
         threads: u64,
         min_difficulty: u32,
     ) -> Solution {
@@ -88,13 +84,12 @@ impl Miner {
                     let progress_bar = progress_bar.clone();
                     let mut memory = equix::SolverMemory::new();
                     move || {
-                        let timer = Instant::now();
                         let mut nonce = u64::MAX.saturating_div(threads).saturating_mul(i);
                         let mut best_nonce = nonce;
                         let mut best_difficulty = 0;
                         let mut best_hash = Hash::default();
                         loop {
-                            progress_bar.set_message(format!("Mining... (Best Difficulty Found: {} )  (Minimun Difficulty : {} )", best_difficulty, min_difficulty));
+                            progress_bar.set_message(format!("Mining... (Best Difficulty Found: {} )  (Minimun Difficulty : {} ) (NONCE : {})", best_difficulty, min_difficulty,nonce));
                             // Create hash
                             if let Ok(hx) = drillx::hash_with_memory(
                                 &mut memory,
@@ -111,21 +106,11 @@ impl Miner {
                                 
 
                             }
-                            // Exit if time has elapsed
-                            if nonce % 100 == 0 {
-                                if timer.elapsed().as_secs().ge(&cutoff_time) {
-                                    if best_difficulty.ge(&min_difficulty) {
-                                        // Mine until min difficulty has been met
-                                        break;
-                                    }
-                                } else if i == 0 {
-                                    progress_bar.set_message(format!(
-                                        "Mining... ({} sec remaining)",
-                                        cutoff_time.saturating_sub(timer.elapsed().as_secs()),
-                                    ));
-                                }
+                            if best_difficulty.ge(&min_difficulty) {
+                                // Mine until min difficulty has been met
+                                break;
                             }
-
+                  
                             // Increment nonce
                             nonce += 1;
                         }
@@ -183,15 +168,7 @@ impl Miner {
             .le(&clock.unix_timestamp)
     }
 
-    async fn get_cutoff(&self, proof: Proof, buffer_time: u64) -> u64 {
-        let clock = get_clock(&self.rpc_client).await;
-        proof
-            .last_hash_at
-            .saturating_add(60)
-            .saturating_sub(buffer_time as i64)
-            .saturating_sub(clock.unix_timestamp)
-            .max(0) as u64
-    }
+   
 }
 
 fn calculate_multiplier(balance: u64, top_balance: u64) -> f64 {
