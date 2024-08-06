@@ -1,0 +1,9 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libspl_transfer_hook_interface-a3d5d4d1671ab9fd.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\instruction.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\offchain.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\onchain.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\spl_transfer_hook_interface-a3d5d4d1671ab9fd.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\instruction.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\offchain.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\onchain.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\error.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\instruction.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\offchain.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-transfer-hook-interface-0.4.1\src\onchain.rs:

@@ -1,0 +1,10 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\spl_token_group_interface-bb0d3ed8fbd9828c.dll: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\instruction.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\state.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libspl_token_group_interface-bb0d3ed8fbd9828c.rlib: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\instruction.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\state.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\spl_token_group_interface-bb0d3ed8fbd9828c.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\instruction.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\state.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\error.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\instruction.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-token-group-interface-0.1.0\src\state.rs:

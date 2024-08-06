@@ -1,0 +1,10 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libsolana_udp_client-2f68c9103b04102a.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\udp_client.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\udp_client.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libsolana_udp_client-2f68c9103b04102a.rlib: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\udp_client.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\udp_client.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\solana_udp_client-2f68c9103b04102a.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\udp_client.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\udp_client.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\mod.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\nonblocking\udp_client.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-udp-client-1.18.17\src\udp_client.rs:

@@ -1,0 +1,11 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libsignature-889d442535aa6634.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\keypair.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signature.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signer.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\verifier.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\../README.md
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\signature-889d442535aa6634.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\keypair.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signature.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signer.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\verifier.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\../README.md
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\error.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\keypair.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signature.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\signer.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\verifier.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\signature-1.6.4\src\../README.md:

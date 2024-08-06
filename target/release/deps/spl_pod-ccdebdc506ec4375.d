@@ -1,0 +1,12 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\spl_pod-ccdebdc506ec4375.dll: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\bytemuck.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\optional_keys.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\primitives.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\slice.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libspl_pod-ccdebdc506ec4375.rlib: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\bytemuck.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\optional_keys.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\primitives.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\slice.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\spl_pod-ccdebdc506ec4375.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\bytemuck.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\error.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\optional_keys.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\primitives.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\slice.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\bytemuck.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\error.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\optional_keys.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\primitives.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\spl-pod-0.1.0\src\slice.rs:

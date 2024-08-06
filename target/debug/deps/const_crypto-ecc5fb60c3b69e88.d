@@ -1,0 +1,10 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libconst_crypto-ecc5fb60c3b69e88.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\bs58.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\choice.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\field_element.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\../README.md
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\const_crypto-ecc5fb60c3b69e88.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\bs58.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\choice.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\field_element.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\../README.md
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\bs58.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\mod.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\choice.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\ed25519\field_element.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\const-crypto-0.1.0\src\../README.md:

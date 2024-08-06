@@ -1,0 +1,11 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libed25519_dalek-3735ed544f5499e2.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\constants.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\keypair.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\errors.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\public.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\secret.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\signature.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\ed25519_dalek-3735ed544f5499e2.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\constants.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\keypair.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\errors.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\public.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\secret.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\signature.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\constants.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\keypair.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\errors.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\public.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\secret.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ed25519-dalek-1.0.1\src\signature.rs:

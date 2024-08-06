@@ -1,0 +1,6 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libcrypto_mac-a102a90911200ec0.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\errors.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\crypto_mac-a102a90911200ec0.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\errors.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crypto-mac-0.8.0\src\errors.rs:

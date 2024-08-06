@@ -1,0 +1,10 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libsolana_vote_program-e636a6bc955da07f.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_processor.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_state\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_transaction.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\libsolana_vote_program-e636a6bc955da07f.rlib: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_processor.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_state\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_transaction.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\solana_vote_program-e636a6bc955da07f.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_processor.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_state\mod.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_transaction.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_processor.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_state\mod.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\solana-vote-program-1.18.17\src\vote_transaction.rs:

@@ -1,0 +1,11 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\librusticata_macros-41a6bc23fddfd965.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\combinator.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\debug.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\macros.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\traits.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\librusticata_macros-41a6bc23fddfd965.rlib: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\combinator.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\debug.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\macros.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\traits.rs
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\release\deps\rusticata_macros-41a6bc23fddfd965.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\combinator.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\debug.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\macros.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\traits.rs
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\combinator.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\debug.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\macros.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusticata-macros-4.1.0\src\traits.rs:

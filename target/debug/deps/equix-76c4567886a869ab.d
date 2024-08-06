@@ -1,0 +1,13 @@
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\libequix-76c4567886a869ab.rmeta: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\hash.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\mem.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\collision.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\err.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solution.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solver.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\../README.md
+
+C:\Users\ADM\oreminer\oreminer\ore-cli\target\debug\deps\equix-76c4567886a869ab.d: C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\lib.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\hash.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\mem.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\collision.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\err.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solution.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solver.rs C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\../README.md
+
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\lib.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\hash.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\bucket_array\mem.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\collision.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\err.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solution.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\solver.rs:
+C:\Users\ADM\.cargo\registry\src\index.crates.io-6f17d22bba15001f\equix-0.1.5\src\../README.md:
