@@ -35,6 +35,7 @@ impl Miner {
             // Fetch proof
             let config = get_config(&self.rpc_client).await;
             let proof = get_proof_with_authority(&self.rpc_client, signer.pubkey()).await;
+
             println!(
                 "\nStake: {} ORE\n  Multiplier: {:12}x",
                 amount_u64_to_string(proof.balance),
@@ -45,13 +46,19 @@ impl Miner {
             let cutoff_time = self.get_cutoff(proof, args.buffer_time).await;
 
             // Run drillx
-            let solution = Self::find_hash_par(
+            let (solution, best_difficulty) = Self::find_hash_par(
                 proof,
                 cutoff_time,
                 args.threads,
-                config.min_difficulty as u32,
+                20,  // Set the minimum difficulty to 20
             )
             .await;
+
+            if best_difficulty < 20 {
+                println!("Found difficulty below 20, retrying in 10 seconds...");
+                std::thread::sleep(std::time::Duration::from_secs(10));
+                continue;
+            }
 
             // Submit most difficult hash
             let mut compute_budget = 500_000;
@@ -77,7 +84,7 @@ impl Miner {
         cutoff_time: u64,
         threads: u64,
         min_difficulty: u32,
-    ) -> Solution {
+    ) -> (Solution, u32) {
         // Dispatch job to each thread
         let progress_bar = Arc::new(spinner::new_progress_bar());
         progress_bar.set_message("Mining...");
@@ -106,6 +113,11 @@ impl Miner {
                                     best_difficulty = difficulty;
                                     best_hash = hx;
                                 }
+                            }
+
+                            // Print difficulty for every nonce
+                            if nonce % 100 == 0 {
+                                println!("Nonce: {}, Difficulty: {}", nonce, best_difficulty);
                             }
 
                             // Exit if time has elapsed
@@ -155,7 +167,9 @@ impl Miner {
             best_difficulty
         ));
 
-        Solution::new(best_hash.d, best_nonce.to_le_bytes())
+        println!("Best nonce: {}, Best difficulty: {}", best_nonce, best_difficulty);  // Print final best difficulty
+
+        (Solution::new(best_hash.d, best_nonce.to_le_bytes()), best_difficulty)
     }
 
     pub fn check_num_cores(&self, threads: u64) {
