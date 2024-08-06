@@ -50,11 +50,11 @@ impl Miner {
                 proof,
                 cutoff_time,
                 args.threads,
-                20,  // Set the minimum difficulty to 20
+                16,  // Set the minimum difficulty to 20
             )
             .await;
 
-            if best_difficulty < 20 {
+            if best_difficulty < 16 {
                 println!("Found difficulty below 20, retrying in 10 seconds...");
                 std::thread::sleep(std::time::Duration::from_secs(10));
                 continue;
